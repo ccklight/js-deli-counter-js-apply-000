@@ -3,11 +3,15 @@
      if (katzDeli.length ===0);
      return "The line is currently empty.";
   } 
+  var lineNamesandNumbers = []
+  for (var i=0 i<line.length i++) {
+    lineNamesandNumbers.push 
+  }
   function takeANumber(line, name) {
-    takeANumber(katzDeliLine, "Ada");
-    takeANumber(katzDeliLine, "Grace");
-    takeANumber(katzDeliLine, "Kent");
-    takeANumber(katzDeliLine, "Matz");
+   // takeANumber(katzDeliLine, "Ada");
+   // takeANumber(katzDeliLine, "Grace");
+   // takeANumber(katzDeliLine, "Kent");
+   // takeANumber(katzDeliLine, "Matz");
     
     line.push(name);
     console.log("")
@@ -16,7 +20,7 @@
   var currentLineName [];
   var lineNumber = [];
   var lineNamesandNumbers = [];
-   for(var i= 0; i <katzDeliLine.length; i++);{
+   for(var i= 0; i <katzDeliLine.length; i++){
      lineNamesandNumbers
      
   
